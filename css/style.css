@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+}
+
+h1{
+    margin: 50px auto 0;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    color: #66bfbf;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66bfbf;
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p {
+    color: #40514e;
+    line-height: 2;
+}
+
+a {
+    margin: 10px 50px;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+hr {
+    
+    border: 10px dotted #eaf6f6;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.my-photo {
+    width: 15%;
+    border: 10px solid #8ab6ca;
+    border-radius: 50%;
+}
+
+.profile p {
+    width: 30%;
+    margin: auto;
+}
+
+.gif {
+    width: 25%;
+    border-radius: 50px;
+}
+
+.code-gif {
+    float: left;
+    margin-right: 30px;
+}
+
+.coffee-gif {
+    float: right;
+    margin-left: 30px;
+}
+
+.top-container {
+    background-image: linear-gradient(0deg, #e0e0f1 0%, #e7f6ff 100%);
+    position: relative;
+    padding-top: 100px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 30%;
+}
+
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 250px;
+    left: 30%;
+}
+
+
+
+.middle-container {
+    padding: 100px 0;
+
+
+}
+
+.skill-row {
+    margin: 150px auto 100px;
+    width: 50%;
+    text-align: left;
+}
+
+.contact-me p {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    padding: 10px 30px;
+    color: #EAF6F6;
+    border-radius: 8px;
+    background-image: linear-gradient(180deg, #11cdd4, #11999e);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(180deg, #30e3cb, #2bc4ad);
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.bottom-container p {
+    position: relative;
+    top: 50px;
+    color: #EAF6F6;
+}
+
+.link-icon {
+    width: 3%;
+    filter: invert(1) blur(5px) hue-rotate(200deg);
+}
+
+.link-icon:hover {
+    filter: blur(0) invert(1) brightness(3);
+}
